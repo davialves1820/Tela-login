@@ -14,6 +14,7 @@ function entrar(event) {
     // Verifica se foi escrito login e senha
     if (username.value === "" || password.value === "") {
         alert("Digite seu usuario ou senha");
+        return;
     }
 
     // Verifica se existe alguma conta com login e senha escritos pelo usuário
