@@ -32,6 +32,9 @@ Tela de login simples implementada em hmtl, css e javascript. Nela é possível 
 
 - **Login**: Realize o login com seu usuário e senha.
 
+---
+
+
 ## Imagens do projeto
 
 ### Tela de login
