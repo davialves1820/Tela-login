@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("img/Free-City-Backgrounds-Pixel-Art2.png");
+    background: url("../img/Free-City-Backgrounds-Pixel-Art2.png");
     background-size: cover; /* Faz a imagem ocupar toda a área sem distorção */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-position: center; /* Centraliza a imagem no body */

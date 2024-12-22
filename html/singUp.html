@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/singUp.css">
+    <link rel="icon" href="../img/icons8-login-24.png">
+    <title>Sing up</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <div class="container-preenchimento">
+                <h1>Sing Up</h1>
+                
+                <p>Usuario</p>
+                <div class="input-box" id="aviso-usuario">
+                    <input type="text" id="criar-username">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="avisos usuario">Usuario já existente!</div>
+                </div>
+
+                <p>Senha</p>
+                <div class="input-box" id="aviso-senha">
+                    <input type="password" id="criar-password">
+                    <i class="fa-solid fa-lock"></i>
+                    <div class="avisos senha">Senha com ao menos 8 digitos!</div>
+                </div>
+
+                <p>Confirme sua senha</p>
+                <div class="input-box" id="aviso-senha-confirmacao">
+                    <input type="password" id="criar-password-confirmacao">
+                    <i class="fa-solid fa-lock"></i>
+                    <div class="avisos confirmar-senha">As senhas devem ser iguais!</div>
+                </div>
+            </div>
+
+            <button id="criar-conta">Criar conta</button>
+
+        </form>
+    </main>
+
+    <script src="../src/contas.js" type="module"></script>
+    <script src="../src/criarConta.js" type="module"></script>
+    
+</body>
+
+</html>

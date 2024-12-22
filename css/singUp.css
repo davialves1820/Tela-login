@@ -1,0 +1,42 @@
+p {
+    font-weight: 600;
+    color: white;
+}
+
+.avisos {
+    display: none;
+    margin-top: 80px;
+    margin-left: 10px;
+    color: red;
+    font-weight: 600;
+}
+
+.container-preenchimento {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 14px;
+}
+
+#criar-conta {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #9290C3;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#criar-conta:hover {
+    background-color: #5956c5;
+    transition: 0.5s;
+}
