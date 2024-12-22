@@ -1,4 +1,16 @@
-## Tela de login
-Este projeto é uma tela de login simples que permite o usuário entrar com sua conta e criar uma caso não tenha sido feita anteriormente.
+# Tela de login
 
-## Estrutura do projeto
+## 📄 Descrição
+Tela de login simples implementada em hmtl, css e javascript. Nela é possível logar na sua conta ou se redirecionar para outra página, na qual, será possível se cadastrar.
+
+---
+
+## 🗂️ Estrutura dos Arquivos
+
+- **src**: Contém os arquivos js.
+- **css**: Contém os arquivos de estilização para index.html e signUp.html.
+- **html**: Contém o arquivo signUp.hmtl.
+- **img**: Contém a imagem de background da página e o ícone.
+- **index.html**: Arquivo da tela de login.
+
+---
