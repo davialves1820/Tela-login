@@ -7,10 +7,21 @@ Tela de login simples implementada em hmtl, css e javascript. Nela é possível 
 
 ## 🗂️ Estrutura dos Arquivos
 
-- **src**: Contém os arquivos js.
-- **css**: Contém os arquivos de estilização para index.html e signUp.html.
-- **html**: Contém o arquivo signUp.hmtl.
-- **img**: Contém a imagem de background da página e o ícone.
-- **index.html**: Arquivo da tela de login.
+-css:
+   singUp.css        # Estilo da página de cadastro
+   style.css         # Estilo principal do projeto
+-html:
+   singUp.html       # Página de cadastro
+-img:
+   Free-City-Background.png  # Imagem de fundo
+   icons8-login-24.png       # Ícone para login
+src:
+   contas.js         # Gerenciamento de contas de usuários
+   criarConta.js     # Lógica para criação de novas contas
+   entrar.js         # Controle da funcionalidade de login
+   login.js          # Lógica principal de autenticação
+   nova_conta.js     # Gerenciamento de novas contas
+   tamanho_minimo.js # Validação de tamanhos mínimos (ex.: senha)
+-index.html            # Página principal
 
 ---
