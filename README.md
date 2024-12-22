@@ -26,7 +26,7 @@ Tela de login simples implementada em hmtl, css e javascript. Nela é possível 
 
 ---
 
-## Funcionalidades
+## 🔧 Funcionalidades
 
 - **Criar conta**: Os usuários podem se registrar com suas informações.
 
@@ -35,7 +35,7 @@ Tela de login simples implementada em hmtl, css e javascript. Nela é possível 
 ---
 
 
-## Imagens do projeto
+## 🖼️ Imagens do projeto
 
 ### Tela de login
 ![image](https://github.com/user-attachments/assets/a6874811-8dc3-4009-a92d-e06f23aaa996)
